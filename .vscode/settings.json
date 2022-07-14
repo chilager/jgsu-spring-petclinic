@@ -1,3 +1,20 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "jenkins-runner.jobs":{
+        "ide": {
+            "runWith" : "pipeline-7080",
+            "name" : "ide",
+            "isDefault" : true
+        }
+    },
+    "jenkins-runner.hostConfigs": {
+        "pipeline-7080":{
+        
+            "url": "http://localhost:7080",
+            "user": "sasa",
+            "password": "Joca.008",
+            "userCrumbIssuer" :true
+    }
+    
 }
+}
+
