@@ -14,7 +14,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                                 
-                sh './mvnw clean package'
+                sh './mvnw clean compile'
 
                 // Run Maven on a Unix agent.
                 //sh "mvn -Dmaven.test.failure.ignore=true clean package"
